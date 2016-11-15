@@ -1,0 +1,25 @@
+{
+  "name": "relief-student",
+  "version": "1.0.0",
+  "description": "relief tracker application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node API/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TripOtt",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mysql": "^2.12.0",
+    "node-http-error": "^1.0.0",
+    "node-uuid": "^1.4.7",
+    "pouchdb-http": "^5.4.5",
+    "pouchdb-mapreduce": "^5.4.5",
+    "ramda": "^0.22.1",
+    "server-summary": "^6.0.1",
+    "zero-config": "^7.0.1"
+  }
+}
