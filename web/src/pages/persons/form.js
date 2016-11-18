@@ -1,8 +1,7 @@
 const React = require('react')
 const xhr = require('xhr')
-// const Srvr = require('../../components/Xhr')
 
-const ResourceForm = React.createClass({
+const PersonForm = React.createClass({
   getInitialState(){
     return(
       {
@@ -76,4 +75,4 @@ const ResourceForm = React.createClass({
   }
 })
 
-module.exports = ResourceForm
+module.exports = PersonForm

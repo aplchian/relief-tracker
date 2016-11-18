@@ -78,7 +78,7 @@ app.get('/persons', function(req, res) {
         // const sortBy = getPersonSortBy(sortByParam, dalModule)
     const sortBy = sortByParam
     const sortToken = req.query.sorttoken || ''
-    const limit = req.query.limit || 5
+    const limit = req.query.limit || 30
 
     dal.listPersons(sortBy, sortToken, limit, function callback(err, data) {
         if (err) {
